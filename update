@@ -31,7 +31,7 @@ run_update() {
     
     # 2. Download & Ekstrak Menu
     echo -e "${CYAN}[*] Mengunduh file menu terbaru...${NC}"
-    wget -q https://github.com/hokagelegend9999/alpha.v2/raw/refs/heads/main/menu/menu.zip
+    wget -q https://github.com/hokagelegend9999/update-alphav2/raw/refs/heads/main/menu.zip
     unzip -o menu.zip > /dev/null 2>&1
     chmod +x menu/*
     mv menu/* /usr/local/sbin/
